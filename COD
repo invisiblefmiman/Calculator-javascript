@@ -37,13 +37,9 @@
 }
 
 .button {
-        border-bottom: 2px solid black;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    border-top: 2px solid black;
-    line-height: 100px;
+    line-height: 90px;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
 }
 
@@ -100,7 +96,7 @@ buttons.map( button => {
                 try{
                     display.innerText = eval(display.innerText);
                 } catch {
-                    display.innerText = "Error"
+                    display.innerText = "Eroare"
                 }
                 break;
             case '←':
